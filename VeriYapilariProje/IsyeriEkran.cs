@@ -1,12 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using VeriYapilariProje.BinaryTree;
+using VeriYapilariProje.Entities;
 
 namespace VeriYapilariProje
 {
@@ -216,7 +213,7 @@ namespace VeriYapilariProje
             if (txtAdayIlanNo != null)
             {
                 listelenecekIlan = AnaEkran.hashIlan.GetIlan(Convert.ToInt32(txtAdayIlanNo.Text));
-                List<Kisi> listelenecekAdaylar = listelenecekIlan.heap.AdaylarıListele();
+                List<Kisi> listelenecekAdaylar = listelenecekIlan.heap.AdaylariListele();
                 bool listelenecekMi = false;
                 foreach (Kisi kisi in listelenecekAdaylar)
                 {

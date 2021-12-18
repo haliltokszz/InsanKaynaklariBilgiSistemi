@@ -52,30 +52,30 @@
     <Compile Include="AnaEkran.Designer.cs">
       <DependentUpon>AnaEkran.cs</DependentUpon>
     </Compile>
-    <Compile Include="CV.cs" />
+    <Compile Include="BinaryTree\İkiliAramaAgacDugumu.cs" />
+    <Compile Include="BinaryTree\İkiliAramaAgaci.cs" />
     <Compile Include="ElemanEkran.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ElemanEkran.Designer.cs">
       <DependentUpon>ElemanEkran.cs</DependentUpon>
     </Compile>
-    <Compile Include="HashChain.cs" />
-    <Compile Include="HashChainEntry.cs" />
-    <Compile Include="Heap.cs" />
-    <Compile Include="HeapDugumu.cs" />
+    <Compile Include="Entities\CV.cs" />
+    <Compile Include="Entities\Kisi.cs" />
+    <Compile Include="Entities\Program.cs" />
+    <Compile Include="Entities\Sirket.cs" />
+    <Compile Include="Entities\İlan.cs" />
+    <Compile Include="HashChain\HashChain.cs" />
+    <Compile Include="HashChain\HashChainEntry.cs" />
+    <Compile Include="Heap\Heap.cs" />
+    <Compile Include="Heap\HeapDugumu.cs" />
     <Compile Include="IsyeriEkran.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="IsyeriEkran.Designer.cs">
       <DependentUpon>IsyeriEkran.cs</DependentUpon>
     </Compile>
-    <Compile Include="Kisi.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sirket.cs" />
-    <Compile Include="İkiliAramaAgacDugumu.cs" />
-    <Compile Include="İkiliAramaAgaci.cs" />
-    <Compile Include="İlan.cs" />
     <EmbeddedResource Include="AnaEkran.resx">
       <DependentUpon>AnaEkran.cs</DependentUpon>
     </EmbeddedResource>

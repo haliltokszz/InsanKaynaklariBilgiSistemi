@@ -7,12 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using VeriYapilariProje.BinaryTree;
+using VeriYapilariProje.Entities;
 
 namespace VeriYapilariProje
 {
     public partial class AnaEkran : Form
     {
-        public static HashChain hashIlan = new HashChain();
+        public static HashChain.HashChain hashIlan = new HashChain.HashChain();
         public static İkiliAramaAgaci ikili = new İkiliAramaAgaci();
         public static List<Sirket> sirketler = new List<Sirket>();
         Kisi kisi1 = new Kisi();

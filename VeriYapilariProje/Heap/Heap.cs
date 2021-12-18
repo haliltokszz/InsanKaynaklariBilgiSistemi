@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using VeriYapilariProje.Entities;
 
-namespace VeriYapilariProje
+namespace VeriYapilariProje.Heap
 {
     public class Heap
     {
@@ -90,7 +88,7 @@ namespace VeriYapilariProje
         }
         public void DisplayHeap()
         {
-            /*Console.WriteLine();
+            Console.WriteLine();
             Console.Write("Heap içerisindeki elemanlar: ");
             for (int m = 0; m < currentSize; m++)
                 if (heapArray[m] != null)
@@ -124,10 +122,10 @@ namespace VeriYapilariProje
                     for (int k = 0; k < emptyLeaf * 2 - 2; k++)
                         Console.Write(' ');
             }
-            Console.WriteLine("\n" + separator + separator);*/
+            Console.WriteLine("\n" + separator + separator);
         }
 
-        public List<Kisi> AdaylarıListele()
+        public List<Kisi> AdaylariListele()
         {
             List<Kisi> adaylar = new List<Kisi>();
             for(int i=0; i<currentSize; i++)

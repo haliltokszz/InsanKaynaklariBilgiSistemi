@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using VeriYapilariProje.Entities;
 
-namespace VeriYapilariProje
+namespace VeriYapilariProje.BinaryTree
 {
     public class İkiliAramaAgaci
     {

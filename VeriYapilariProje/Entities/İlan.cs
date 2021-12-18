@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
-namespace VeriYapilariProje
+namespace VeriYapilariProje.Entities
 {
     public class İlan
     {
@@ -13,10 +9,10 @@ namespace VeriYapilariProje
         public string pozisyon;
         public List<string> yabanciDil = new List<string>();
         public Sirket sirket;
-        public Heap heap;
+        public Heap.Heap heap;
         public İlan()
         {
-            heap = new Heap();
+            heap = new Heap.Heap();
             sirket = new Sirket();
         }
 
